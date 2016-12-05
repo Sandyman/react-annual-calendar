@@ -61,3 +61,8 @@ Temporary Items
 # Custom
 lib
 
+# WebStorm
+.idea
+
+# Joe backup files
+*~ 

@@ -1,4 +1,4 @@
-# React-yearly-calendar
+# React-annual-calendar
 
 [React](http://facebook.github.io/react/) calendar component with yearly view.
 
@@ -6,8 +6,13 @@
 ![Alt text](https://img.shields.io/badge/license-MIT-green.svg?style=flat)
 
 ```bash
-$ npm install react-yearly-calendar
+$ npm install react-annual-calendar
 ```
+
+# Fork
+
+This is a fork from BelkaLab (see link below). This version includes the CSS file, so it works in a React project
+without the need to copy a CSS file. 
 
 # Demo
 **[http://belkalab.github.io/react-yearly-calendar/](http://belkalab.github.io/react-yearly-calendar)**
@@ -95,10 +100,6 @@ ____
  - `div.calendar-controls .controls`: applies to *next* and *previous* arrows and to *today* button
  - `div.calendar-controls .today`: the *today* button
  
-### Responsive
-A first attempt at making this design responsive can be seen [here](http://code.belka.us/react-yearly-calendar/responsive/) (windows width < 1200 triggers mobile layout). Discussion on this is really welcome [on issue #10](https://github.com/BelkaLab/react-yearly-calendar/issues/10)
-
-
 ## Custom days/periods colors
 
 By passing the `customClasses` prop, you can have a fine control on which CSS classes are assigned to each day.
@@ -152,14 +153,5 @@ $ npm install
 ```
 
 ## License
-react-yearly-calendar is Copyright (c) 2016 Belka, srl. It is free software, and may be redistributed under the terms specified in the LICENSE file.  
 
-## About Belka
-![Alt text](http://s2.postimg.org/rcjk3hf5x/logo_rosso.jpg)
-
-[Belka](http://belka.us/en) is a Digital Agency specialized in design, mobile applications development and custom solutions.
-We love open source software! You can [see our projects](http://belka.us/en/portfolio/) or look at our case studies.
-
-Interested? [Hire us](http://belka.us/en/contacts/) to help build your next amazing project.
-
-[www.belka.us](http://belka.us/en)
+react-annual-calendar is released under an MIT license and is Copyright (c) 2016 Sander Huijsen. It is free software, and may be redistributed under the terms specified in the LICENSE file.  

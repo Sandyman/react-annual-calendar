@@ -1,16 +1,16 @@
 {
-  "name": "react-yearly-calendar",
+  "name": "react-annual-calendar",
   "version": "1.1.5",
-  "description": "A yearly calendar built in React.js",
+  "description": "An annual calendar built in React.js.",
   "repository": {
     "type": "git",
-    "url": "git@github.com:BelkaLab/react-yearly-calendar"
+    "url": "git@github.com:Sandyman/react-annual-calendar"
   },
   "main": "./lib/index.js",
   "scripts": {
     "clean": "rm -rf lib dist",
-    "build": "babel src --out-dir lib",
-    "prepublish": "NODE_ENV=production; babel src --out-dir lib"
+    "build": "babel src --out-dir lib --copy-files",
+    "prepublish": "NODE_ENV=production; babel src --out-dir lib --copy-files"
   },
   "keywords": [
     "react",
@@ -18,9 +18,10 @@
     "calendar",
     "year",
     "yearly",
+    "annual",
     "react-component"
   ],
-  "author": "Belka <giovanni@belka.us> (http://belka.us)",
+  "author": "Sander Huijsen <info@sanderhuijsen.com> (http://www.sanderhuijsen.com)",
   "license": "MIT",
   "dependencies": {
     "moment": "^2.13.0",
